@@ -12,10 +12,10 @@ import psycopg2
 
 conn = psycopg2.connect("dbname=test user=postgres")
 
-
-# generate edilmiş sorguyu db ye göndericek.
-def run(query):
-    return 
+class Sql():
+    # generate edilmiş sorguyu db ye göndericek.
+    def run(query):
+        return 
 
 
 
