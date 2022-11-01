@@ -3,3 +3,4 @@ flask_restful
 psycopg2
 pyjwt
 blinker
+configparser
